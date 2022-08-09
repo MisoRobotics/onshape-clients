@@ -115,6 +115,7 @@ class BTMMateConnector66(ModelComposed):
             "sub_features": ([btm_feature134.BTMFeature134],),  # noqa: E501
             "suppressed": (bool,),  # noqa: E501
             "auxiliary_assembly_feature": (bool,),  # noqa: E501
+            "is_auxiliary_tree_mate_connector": (bool,),  # noqa:E501
             "feature_list_field_index": (int,),  # noqa: E501
             "occurrence_queries_from_all_configurations": (
                 [
@@ -144,6 +145,7 @@ class BTMMateConnector66(ModelComposed):
         "sub_features": "subFeatures",  # noqa: E501
         "suppressed": "suppressed",  # noqa: E501
         "auxiliary_assembly_feature": "auxiliaryAssemblyFeature",  # noqa: E501
+        "is_auxiliary_tree_mate_connector": "isAuxiliaryTreeMateConnector",  # noqa:E501
         "feature_list_field_index": "featureListFieldIndex",  # noqa: E501
         "occurrence_queries_from_all_configurations": "occurrenceQueriesFromAllConfigurations",  # noqa: E501
         "version": "version",  # noqa: E501
@@ -201,6 +203,7 @@ class BTMMateConnector66(ModelComposed):
             sub_features ([btm_feature134.BTMFeature134]): [optional]  # noqa: E501
             suppressed (bool): [optional]  # noqa: E501
             auxiliary_assembly_feature (bool): [optional]  # noqa: E501
+            is_auxiliarly_tree_mate_connector (bool): [optional]  # noqa: E501
             feature_list_field_index (int): [optional]  # noqa: E501
             occurrence_queries_from_all_configurations ([btm_individual_query_with_occurrence_base904.BTMIndividualQueryWithOccurrenceBase904]): [optional]  # noqa: E501
             version (int): [optional]  # noqa: E501
